@@ -19,55 +19,55 @@
   flex-direction: row;
 }
 
-.swatch1 {
+#swatch1 {
   height: 50px;
   width: 50px;
   background-color: black;
 }
 
-.swatch2 {
+#swatch2 {
   height: 50px;
   width: 50px;
   background-color: red;
 }
 
-.swatch3 {
+#swatch3 {
   height: 50px;
   width: 50px;
   background-color: blue;
 }
 
-.swatch4 {
+#swatch4 {
   height: 50px;
   width: 50px;
   background-color: yellow;
 }
 
-.swatch5 {
+#swatch5 {
   height: 50px;
   width: 50px;
   background-color: green;
 }
 
-.swatch6 {
+#swatch6 {
   height: 50px;
   width: 50px;
   background-color: orange;
 }
 
-.swatch7 {
+#swatch7 {
   height: 50px;
   width: 50px;
   background-color: purple;
 }
 
-.swatch8 {
+#swatch8 {
   height: 50px;
   width: 50px;
   background-color: white;
 }
 
-.swatch9 {
+#swatch9 {
   height: 50px;
   width: 50px;
   background-color: brown;
