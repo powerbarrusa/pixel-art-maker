@@ -1,17 +1,17 @@
 #canvas {
-  height: 750px;
-  width: 750px;
+  height: 507px;
+  width: 507px;
   border-style: solid;
   border-width: 5px;
   display: flex;
-  flex-direction: row;
   flex-wrap: wrap;
 }
 
 .pixel {
-  height: 20px;
-  width: 20px;
-  border: 2px solid black;
+  height: 100px;
+  width: 100px;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
 }
 
 #swatches {
