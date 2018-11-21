@@ -1,0 +1,66 @@
+#canvas {
+  height: 750px;
+  width: 1500px;
+  background-color: whitesmoke;
+  border-style: solid;
+  border-width: 5px;
+}
+
+#swatches {
+  display: flex;
+  flex-direction: row;
+}
+
+.swatch1 {
+  height: 50px;
+  width: 50px;
+  background-color: black;
+}
+
+.swatch2 {
+  height: 50px;
+  width: 50px;
+  background-color: red;
+}
+
+.swatch3 {
+  height: 50px;
+  width: 50px;
+  background-color: blue;
+}
+
+.swatch4 {
+  height: 50px;
+  width: 50px;
+  background-color: yellow;
+}
+
+.swatch5 {
+  height: 50px;
+  width: 50px;
+  background-color: green;
+}
+
+.swatch6 {
+  height: 50px;
+  width: 50px;
+  background-color: orange;
+}
+
+.swatch7 {
+  height: 50px;
+  width: 50px;
+  background-color: purple;
+}
+
+.swatch8 {
+  height: 50px;
+  width: 50px;
+  background-color: white;
+}
+
+.swatch9 {
+  height: 50px;
+  width: 50px;
+  background-color: brown;
+}
