@@ -1,9 +1,17 @@
 #canvas {
   height: 750px;
-  width: 1500px;
-  background-color: whitesmoke;
+  width: 750px;
   border-style: solid;
   border-width: 5px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.pixel {
+  height: 20px;
+  width: 20px;
+  border: 2px solid black;
 }
 
 #swatches {
@@ -62,5 +70,41 @@
 .swatch9 {
   height: 50px;
   width: 50px;
+  background-color: brown;
+}
+
+.black {
+  background-color: black;
+}
+
+.red {
+  background-color: red;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.green {
+  background-color: green;
+}
+
+.orange {
+  background-color: orange;
+}
+
+.purple {
+  background-color: purple;
+}
+
+.white {
+  background-color: white;
+}
+
+.brown {
   background-color: brown;
 }

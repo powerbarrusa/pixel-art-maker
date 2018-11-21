@@ -1,9 +1,22 @@
+var canvasHeight = 750;
+var canvasWidth = 750;
+var canvas = document.getElementById("canvas");
+
+
 document.addEventListener("DOMContentLoaded", function(event) {
-  console.log("DOM fully loaded and parsed");
+
   var onClick = function(event) {
-    var canvas = document.querySelectorAll(".canvas")
-    canvas.classList.add("swatch1");
+    canvas.classList.toggle("black");
     };
+    canvas.addEventListener("click", onClick);
+    
+    for (var i = 0; i < 961; i++){
+      var newBox = document.createElement("div");
+      newBox.classList.add("pixel");
+      canvas.appendChild(newBox);
+    }
+
+    for (var i = 0; i)
 });
 
 
