@@ -16,10 +16,10 @@ var greenColors = document.getElementById("swatch5")
 greenColors.addEventListener("click", () => {
   color = "green"
 })
-var brownColors = document.getElementById("swatch9")
-brownColors.addEventListener("click", () => {
-  color = "brown"
-})
+// var brownColors = document.getElementById("swatch9")
+// brownColors.addEventListener("click", () => {
+//   color = "white"
+// })
 var orangeColors = document.getElementById("swatch6")
 orangeColors.addEventListener("click", () => {
   color = "orange"
@@ -28,13 +28,18 @@ var purpleColors = document.getElementById("swatch7")
 purpleColors.addEventListener("click", () => {
   color = "purple"
 })
-var whiteColors = document.getElementById("swatch8")
-whiteColors.addEventListener("click", () => {
-  color = "white"
+var brownColors = document.getElementById("swatch8")
+brownColors.addEventListener("click", function() {
+  color = "brown"
 })
 var redColors = document.getElementById("swatch2")
-redColors.addEventListener("click", () => {
+redColors.addEventListener("click", function() {
   color = "red"
+})
+
+var eraser = document.getElementById("eraser")
+eraser.addEventListener("click", function(){
+  color = "white"
 })
 
 

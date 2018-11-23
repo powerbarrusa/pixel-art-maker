@@ -64,14 +64,14 @@
 #swatch8 {
   height: 50px;
   width: 50px;
-  background-color: white;
-}
-
-#swatch9 {
-  height: 50px;
-  width: 50px;
   background-color: brown;
 }
+
+/* #swatch9 {
+  height: 50px;
+  width: 50px;
+  background-color: white;
+} */
 
 .black {
   background-color: black;
