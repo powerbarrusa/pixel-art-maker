@@ -1,5 +1,5 @@
 var color = "white"
-var canvas = document.getElementById("canvas");
+var canvas = document.getElementById("canvas")
 var blueColors = document.getElementById("swatch3")
 blueColors.addEventListener("click", () => {
   color = "blue"
@@ -16,10 +16,6 @@ var greenColors = document.getElementById("swatch5")
 greenColors.addEventListener("click", () => {
   color = "green"
 })
-// var brownColors = document.getElementById("swatch9")
-// brownColors.addEventListener("click", () => {
-//   color = "white"
-// })
 var orangeColors = document.getElementById("swatch6")
 orangeColors.addEventListener("click", () => {
   color = "orange"
@@ -47,16 +43,17 @@ eraser.addEventListener("click", function(){
 document.addEventListener("DOMContentLoaded", function(event) {
 
   for (var i = 0; i < 25; i++){
-    var newBox = document.createElement("div");
-    newBox.classList.add("pixel");
+    var newBox = document.createElement("div")
+    newBox.classList.add("pixel")
 
     var onClick = function(event) {
-      event.target.classList.toggle(color)
-    };
+      event.target.className = "pixel"
+      event.target.classList.add(color)
+    }
 
-    newBox.addEventListener("click", onClick);
-    canvas.appendChild(newBox);
+    newBox.addEventListener("click", onClick)
+    canvas.appendChild(newBox)
   }
-});
+})
 
 
